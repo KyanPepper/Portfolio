@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
 import NavBar from "$lib/NavBar.svelte";
 import "../app.css";
 
