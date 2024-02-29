@@ -8,13 +8,11 @@ import NavBar from "$lib/Background/NavBar.svelte";
 import "../app.css";
 
 </script>
-<div>
+<div class="max-w-screen mx-auto max-h-screen my-auto">
     <NavBar>
       
     </NavBar>
-    <Lines>
-      
-    </Lines>
+  
 </div>
 
 
