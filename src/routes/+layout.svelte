@@ -1,13 +1,20 @@
 <script>
-// @ts-nocheck
 
-import NavBar from "$lib/NavBar.svelte";
+
+
+  // @ts-ignore
+  import Lines from "$lib/Background/Lines.svelte";
+import NavBar from "$lib/Background/NavBar.svelte";
 import "../app.css";
 
 </script>
 <div>
     <NavBar>
+      
     </NavBar>
+    <Lines>
+      
+    </Lines>
 </div>
 
 

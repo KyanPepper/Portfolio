@@ -1,9 +1,9 @@
 <script>
-  import "../app.css";
+  import "../../app.css";
 </script>
 
 <nav class="w-full h-16 sm:h-20 bg-stone-600 bg-opacity-5">
-  <div class="flex items-center justify-between h-full px-4 sm:px-8">
+  <div class="flex items-center justify-between h-full px-4 sm:px-8 outline">
     <div class="text-stone-300 text-3xl font-sans flex items-center pl-5">
       Kyan   
       <img
@@ -14,11 +14,11 @@
     </div>
     <div class="flex items-center space-x-4 justify-center">
       <a href="/" class="text-stone-300 text-2xl">Experience</a>
-      <a href="/about" class="text-stone-300 font-sans text-2xl">Resume</a>
-      <a href="/blog" class="text-stone-300 font-sans text-2xl">Projects</a>
+      <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
+      <a href="/" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
     <div class=" items-center justify-center pr-5">
-      <a href="/login" class="text-stone-300 font-sans text-3xl">Contact</a>
+      <a href="/" class="text-stone-300 font-sans text-3xl">Contact</a>
     </div>
   </div>
 </nav>
