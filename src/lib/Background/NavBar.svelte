@@ -22,17 +22,17 @@
       <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
       <a href="/" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
-    <div class=" sm:flex items-center ml-6 "> 
+    <div class=" flex items-center ml-24"> 
       <button type="button" class="inline-flex justify-center rounded-md outline outline-offset-8 text-2xl text-stone-300 font-sans " >
         Contact
       </button>
     </div>
 
     <div class="flex sm:hidden">
-      <div class="relative inline-flex text-right">
+      <div class=" inline-flex ">
    
-          <button type="button" class=" mr-8 inline-flex justify-center rounded-md focus:ring-2 focus:ring-stone-500" aria-expanded="{isDropdownOpen}" aria-haspopup="true" on:click={toggleDropdown}>
-          <img src="src\lib\imgs\1200px-Hamburger_icon_white.svg.png" alt="menu" class="h-10 sm:h-15 ml-2"/>
+          <button type="button" class=" pl-4 mr-2 inline-flex justify-center rounded-md focus:ring-2 focus:ring-stone-500" aria-expanded="{isDropdownOpen}" aria-haspopup="true" on:click={toggleDropdown}>
+          <img src="src\lib\imgs\1200px-Hamburger_icon_white.svg.png" alt="menu" class="h-10 sm:h-15"/>
           </button>
     
         {#if isDropdownOpen}
