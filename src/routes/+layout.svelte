@@ -2,8 +2,7 @@
 
 
 
-  // @ts-ignore
-  import Lines from "$lib/Background/Lines.svelte";
+
 import NavBar from "$lib/Background/NavBar.svelte";
 import "../app.css";
 
@@ -12,7 +11,7 @@ import "../app.css";
     <NavBar>
       
     </NavBar>
-  
+
 </div>
 
 
