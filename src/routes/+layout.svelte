@@ -9,7 +9,6 @@ import "../app.css";
 </script>
 <div class="max-w-screen mx-auto max-h-screen my-auto">
     <NavBar>
-      
     </NavBar>
 
 </div>
