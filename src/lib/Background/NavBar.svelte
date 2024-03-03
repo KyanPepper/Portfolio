@@ -8,7 +8,7 @@
   }
 </script>
 
-<nav class="w-full h-32 sm:h-30 bg-stone-600 bg-opacity-5 outline">
+<nav class="w-full h-36 sm:h-30 bg-stone-600 bg-opacity-5 outline">
   <div class="flex items-center h-full max-w-screen-lg mx-auto">
     <div class="text-stone-300 text-3xl font-sans flex items-center">
       Kyan
@@ -52,7 +52,7 @@
   </div>
   {#if isDropdownOpen}
     <div
-      class="z-10 w-full bg-171414 outline shadow-lg pb-10 focus:outline-none"
+      class="z-50 w-full bg-171414 outline shadow-lg pb-10 focus:outline-none"
       role="menu"
       transition:slide
     >

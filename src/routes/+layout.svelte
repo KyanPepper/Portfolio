@@ -3,11 +3,14 @@
   import "../app.css";
 </script>
 
-<div class="max-w-screen mx-auto max-h-screen my-auto ">
+<div class="z-50 max-w-screen mx-auto max-h-screen my-auto ">
   <NavBar></NavBar>
   
 </div>
-<slot />
+<div class="z-30">
+  <slot />
+</div>
+
 
 
 <style global lang="postcss">
