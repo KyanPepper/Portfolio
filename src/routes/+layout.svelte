@@ -1,10 +1,17 @@
 <script>
+// @ts-nocheck
+
   import NavBar from "$lib/Background/NavBar.svelte";
   import "../app.css";
+  let isDropdownOpen = false;
+
+function toggleDropdown() {
+  isDropdownOpen = !isDropdownOpen;
+}
 </script>
 
-<div class="z-50 max-w-screen mx-auto max-h-screen my-auto ">
-  <NavBar></NavBar>
+<div class=" max-w-screen mx-auto max-h-screen my-auto ">
+  <NavBar isDropdownOpen={isDropdownOpen} {toggleDropdown}></NavBar>
   
 </div>
 <div class="z-30">
