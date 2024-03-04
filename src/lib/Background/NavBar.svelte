@@ -25,7 +25,7 @@
       <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
       <a href="/Resume" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
-    <div class="ml-auto">
+    <div class="ml-auto pr-2">
       <button
         type="button"
         class="inline-flex justify-center rounded-md outline outline-offset-4 text-2xl text-stone-300 font-sans"

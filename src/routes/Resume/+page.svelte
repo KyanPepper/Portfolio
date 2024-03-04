@@ -6,7 +6,7 @@
 
     <!-- Left side with PDF viewer -->
     <div class="flex items-center justify-center w-1/2">
-      <div class="w-3/4 h-3/4 border border-gray-300 relative overflow-hidden">
+      <div class="w-5/6 h-5/6 border border-gray-300 relative overflow-hidden">
         <embed class="absolute inset-0 w-full h-full" src={resume} type="application/pdf" />
       </div>
     </div>
@@ -14,7 +14,7 @@
     <!-- Right side with Download -->
     <div class="flex items-center justify-center w-1/2">
       <div>
-        <p class="text-center">Download</p>
+        <p class="text-center">Resume</p>
       </div>
     </div>
   </div>
