@@ -10,6 +10,7 @@
 
 <nav class="relative w-full h-36 sm:h-30 bg-stone-600 bg-opacity-5 outline">
   <div class="flex items-center h-full max-w-screen-lg mx-auto">
+    <a href="/">
     <div class="text-stone-300 text-3xl font-sans flex items-center">
       Kyan
       <img
@@ -18,6 +19,7 @@
         class="h-10 sm:h-15 ml-2"
       />
     </div>
+  </a>
     <div class="hidden sm:flex items-center space-x-4 justify-center flex-grow">
       <a href="/" class="text-stone-300 font-sans text-2xl">Experience</a>
       <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
