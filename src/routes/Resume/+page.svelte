@@ -13,8 +13,13 @@
   
     <!-- Right side with Download -->
     <div class="flex items-center justify-center w-1/2">
-      <div>
-        <p class="text-center">Resume</p>
+      <div class="text-center">
+        <h1 class="text-center text-7xl font-sans text-white">Paper Resume</h1>
+        <div class="pt-5">
+        <button class="bg-orange-500 hover:bg-orange-400 text-white font-sans font-bold py-2 px-4 rounded">
+            Download 
+          </button>
+        </div>
       </div>
     </div>
   </div>
