@@ -5,18 +5,16 @@
   import "../app.css";
   let isDropdownOpen = false;
 
-function toggleDropdown() {
-  isDropdownOpen = !isDropdownOpen;
-}
+
 </script>
 
 <div class=" max-w-screen mx-auto max-h-screen my-auto ">
-  <NavBar isDropdownOpen={isDropdownOpen} {toggleDropdown}></NavBar>
+  <NavBar isDropdownOpen={isDropdownOpen} ></NavBar>
   
 </div>
-<div class="z-30">
+
   <slot />
-</div>
+
 
 
 

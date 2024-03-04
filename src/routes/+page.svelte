@@ -38,7 +38,7 @@
       <div class="sm:hidden w-full justify-center">
         <div class="text-center pt-10">
           <h1 class="text-2xl font-sans text-white">
-            Hi, I'm Kyan Kotschevar-Smead, a software developer and a Computer Science student at Washington State University
+            Hi, I'm Kyan Kotschevar-Smead, a Software Developer and a Computer Science student at Washington State University
           </h1>
           
           </div>

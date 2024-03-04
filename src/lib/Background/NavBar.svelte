@@ -21,7 +21,7 @@
     <div class="hidden sm:flex items-center space-x-4 justify-center flex-grow">
       <a href="/" class="text-stone-300 font-sans text-2xl">Experience</a>
       <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
-      <a href="/" class="text-stone-300 font-sans text-2xl">Resume</a>
+      <a href="/Resume" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
     <div class="ml-auto">
       <button
