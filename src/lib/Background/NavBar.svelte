@@ -1,8 +1,14 @@
 <script lang="js">
+
+
   import "../../app.css";
   export let isDropdownOpen = false;
   import { slide } from "svelte/transition";
-
+  function conditionalDropdown() {
+    if (isDropdownOpen) {
+      isDropdownOpen = !isDropdownOpen;
+    }
+  }
   function toggleDropdown() {
     isDropdownOpen = !isDropdownOpen;
   }
@@ -10,7 +16,7 @@
 
 <nav class="relative w-full h-36 sm:h-30 bg-stone-600 bg-opacity-5 outline">
   <div class="flex items-center h-full max-w-screen-lg mx-auto">
-    <a href="/">
+    <a href="/" on:click={conditionalDropdown}>
     <div class="text-stone-300 text-3xl font-sans flex items-center">
       Kyan
       <img
@@ -70,8 +76,8 @@
           >Projects</a
         >
         <a
-          href="#"
-          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100"
+          href="/Resume"
+          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100 z-50" on:click={toggleDropdown}
           >Resume</a
         >
       </div>
