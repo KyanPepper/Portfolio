@@ -28,7 +28,7 @@
   </a>
     <div class="hidden sm:flex items-center space-x-4 justify-center flex-grow">
       <a href="/" class="text-stone-300 font-sans text-2xl">Experience</a>
-      <a href="/" class="text-stone-300 font-sans text-2xl">Projects</a>
+      <a href="/Projects" class="text-stone-300 font-sans text-2xl">Projects</a>
       <a href="/Resume" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
     <div class="ml-auto pr-2">
@@ -71,8 +71,8 @@
           >Experience</a
         >
         <a
-          href="#"
-          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100"
+          href="/Projects"
+          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100" on:click={toggleDropdown}
           >Projects</a
         >
         <a
