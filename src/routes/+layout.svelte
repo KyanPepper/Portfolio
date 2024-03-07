@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-  import NavBar from "$lib/Background/NavBar.svelte";
+  import NavBar from "$lib/Assets/NavBar.svelte";
   import "../app.css";
   let isDropdownOpen = false;
 
