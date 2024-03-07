@@ -2,15 +2,13 @@
     import ProjectCard from "$lib/Assets/ProjectCard.svelte";
   </script>
   
-  <div id="controls-carousel" class="relative max-w-screen-lg mx-auto w-full" data-carousel="static">
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <div class="duration-700 ease-in-out">
+  <div id="controls-carousel" class=" flex mx-auto w-full h-max" data-carousel="static">
+      <div class="relative rounded-lg ">
+          <div class="">
               <ProjectCard>
               </ProjectCard>
           </div>
-          <div class="hidden duration-700 ease-in-out">
-              <img src="" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-          </div>
+         
       </div>
   </div>
   
