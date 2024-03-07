@@ -20,7 +20,7 @@
 
 </script>
 
-<div class="tablet:flex hidden h-max">
+<div class="tablet:flex hidden h-full w-full justify-center bg-white rounded-3xl">
   <!-- Left side with PDF viewer -->
   <div class="flex h-max items-center justify-center w-1/2">
     <div class="w-5/6 h-5/6 relative"></div>
@@ -28,12 +28,12 @@
 
   <!-- Right side with Imgs -->
 
-  <div class="flex items-center justify-center w-1/2 h-max">
+  <div class="flex items-center justify-center w-1/2 h-max pr-5">
     <div class="flex flex-col">
       <div class="py-3">
-        <img src={img1} class=" w-3/5 outline outline-white" />
+        <img src={img1} class=" w-full outline outline-black rounded-2xl" />
       </div>
-      <div class="pb-3"><img src={img2} class="w-3/5 outline outline-white" /></div>
+      <div class="pb-3"><img src={img2} class="w-full outline outline-black rounded-2xl" /></div>
     </div>
   </div>
 </div>

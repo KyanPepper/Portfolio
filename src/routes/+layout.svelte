@@ -11,9 +11,10 @@
 <div class=" max-w-screen mx-auto max-h-screen my-auto ">
   <NavBar isDropdownOpen={isDropdownOpen} ></NavBar>
   
+  <slot />
 </div>
 
-  <slot />
+
 
 
 
