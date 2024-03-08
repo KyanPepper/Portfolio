@@ -14,7 +14,7 @@
     </button>
 
     <!-- Project Card -->
-    <div class="relative flex justify-center items-center h-full w-7/12 py-14 drop-shadow-2xl">
+    <div class="relative flex justify-center items-center h-full w-8/12 py-5 drop-shadow-2xl">
         <ProjectCard>
           
         </ProjectCard>
