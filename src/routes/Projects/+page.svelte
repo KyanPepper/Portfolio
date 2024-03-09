@@ -1,5 +1,6 @@
 <script>
     import ProjectCard from "$lib/Assets/ProjectCard.svelte";
+    import { ProjectCards } from "./ProjectData";
 </script>
 
 <div id="controls-carousel" class="flex justify-between items-center w-full h-max" data-carousel="static">
@@ -15,9 +16,9 @@
 
     <!-- Project Card -->
     <div class="relative flex justify-center items-center h-full w-8/12 py-5 drop-shadow-2xl">
-        <ProjectCard>
-          
-        </ProjectCard>
+        {#each ProjectCards as Card}
+            <ProjectCard {...Card} />
+        {/each}
     </div>
 
     <!-- Next Button -->

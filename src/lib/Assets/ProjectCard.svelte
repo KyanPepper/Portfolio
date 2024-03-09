@@ -1,23 +1,18 @@
 <script>
   // @ts-ignore
-  export let TechImgs = [
-    "src/lib/imgs/1200px-Python.svg.png",
-    "src/lib/imgs/flasklogo.png",
-    "src/lib/imgs/Postgresql_elephant.svg.png",
-    "src/lib/imgs/1200px-Svelte_Logo.svg.png",
-    "src/lib/imgs/tailwind.svg",
-  ];
-
-  export let Title = "Washington Construction Projects";
-  export let About =
-    "WCP is a webscraper map visualization tool tailored for tracking construction projects in Washington. It categorizes construction projects by county, presenting a streamlined list and visual representation on a map to inform users on various projects.";
-  export let img1 = "src/lib/ProjectScreenShots/washconstruction1.png";
-  export let img2 = "src/lib/ProjectScreenShots/washconstruction2.png";
-  export let Frontend = "The Frontend is built on SvelteKit and styled with Tailwind CSS. I had used the Leaflet library for the map."
-  export let Backend = "WCP utilizes a Python backend with Flask and PostgreSQL for the database. I deliberately chose Python for its web scraping capabilities where I employed the BeautifulSoup library to scrape the construction data. I had also used the OpenStreetMaps api for location data."
+  /**
+   * @type {any[]}
+   */
+   export let TechImgs = [];
+  export let Title = "";
+  export let About ="";
+  export let img1 = "";
+  export let img2 = "";
+  export let Frontend = ""
+  export let Backend = ""
   export let GhUrl = "";
   export let YtUrl = "";
-  export let DeployedUrl = "k";
+  export let DeployedUrl = "";
 </script>
 
 <!-- Title + logos -->
@@ -34,6 +29,7 @@
     <div
       class="tablet:flex hidden h-max w-full justify-center bg-stone-600 bg-opacity-5 outline outline-white"
     >
+      <!-- Left side with text -->
       <div class="flex h-max items-center justify-center w-full">
         <div class="w-5/6 h-5/6 relative">
 
@@ -49,22 +45,26 @@
             <h1 class="text-base">Frontend</h1>
             <p class="text-xs">{Frontend}</p>
           </div>
-          
+          <!-- Links -->
           <div class="mt-4 text-white font-sans text-xs ">
-            <div class="flex"> 
-              <a href="{GhUrl}" class="flex items-center pr-3 ">
-                <img src="src/lib/imgs/githublogo.png" class="size-5" />
-                <span class="ml-1">View on Github</span>
-              </a>
-              <a href="{YtUrl}" class="flex items-center"> 
-                <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-7 h-4" />
-                <span class="">View on Youtube</span>
-              </a>
+            <div class="flex justify-center"> 
+              <div class="flex"> 
+                <a href="{GhUrl}" class="flex items-center pr-3 ">
+                  <img src="src/lib/imgs/githublogo.png" class="size-5" />
+                  <span class="ml-1">View on Github</span>
+                </a>
+                <a href="{YtUrl}" class="flex items-center"> 
+                  <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-7 h-4" />
+                  <span class="">View on Youtube</span>
+                </a>
+              </div>
+            </div>
+            <div class="flex justify-center mt-2"> 
               {#if DeployedUrl != ""}
-              <a href="{YtUrl}" class="flex items-center pl-3"> 
-                <img src="src\lib\imgs\weblogo.png" class="size-5" />
-                <span class="ml-1">Try it Out</span>
-              </a>
+                <a href="{DeployedUrl}" class="flex items-center pl-3"> 
+                  <img src="src\lib\imgs\weblogo.png" class="size-5" />
+                  <span class="ml-1">Try it Out</span>
+                </a>
               {/if}
             </div>
           </div>
