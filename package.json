@@ -23,6 +23,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"iconify": "^1.4.0",
 		"typeface-montserrat": "^1.1.13"
 	}
 }
