@@ -1,4 +1,6 @@
 <script>
+  import { slide } from "svelte/transition";
+
   // @ts-ignore
   /**
    * @type {any[]}
@@ -13,6 +15,15 @@
   export let GhUrl = "";
   export let YtUrl = "";
   export let DeployedUrl = "";
+  let isDropdownOpen = false;
+  function conditionalDropdown() {
+    if (isDropdownOpen) {
+      isDropdownOpen = !isDropdownOpen;
+    }
+  }
+  function toggleDropdown() {
+    isDropdownOpen = !isDropdownOpen;
+  }
 </script>
 
 <!-- Title + logos -->
@@ -20,12 +31,13 @@
   class="flex flex-col justify-center w-full h-full bg-stone-600 bg-opacity-15 rounded-md outline"
 >
   <div class="text-center font-sans text-white">
-    <h1 class="text-2xl">{Title}</h1>
+    <h1 class="tablet:text-2xl hidden">{Title}</h1>
   </div>
 
   <div
     class="flex flex-col justify-center items-center w-full max-w-screen-lg mx-auto"
   >
+    <!-- Desktop -->
     <div
       class="tablet:flex hidden h-max w-full justify-center bg-stone-600 bg-opacity-5 outline outline-white"
     >
@@ -86,9 +98,87 @@
       </div>
     </div>
   </div>
-  <div class="flex justify-center items-center py-1 space-x-5">
+  <div class="tablet:flex hidden justify-center items-center py-1 space-x-5">
     {#each TechImgs as img}
       <img src={img} class="w-10 h-10" />
     {/each}
   </div>
+
+
+
+
+
+
+
+
+  
+  <!-- Mobile -->
+  <div class="flex flex-col justify-center items-center w-full max-w-screen-lg mx-auto px-2">
+    <div class="tablet:hidden flex flex-col justify-center items-center w-full bg-stone-600 bg-opacity-5 outline outline-white">
+      <div class="text-center font-sans text-white">
+        <h1 class="text-xl">{Title}</h1>
+      </div>
+      <!-- Images -->
+      <div class="flex justify-center items-center w-full px-4 py-2">
+        <div class="flex flex-col space-y-3">
+          <img src="{img1}" class="w-full outline outline-black" />
+          <img src="{img2}" class="w-full outline outline-black" />
+        </div>
+      </div>
+      <!-- Content -->
+      <div class="flex flex-col justify-center items-center w-full px-4 text-white font-sans " >
+        <button
+          type="button"
+          class="inline-flex justify-center rounded-md focus:ring-2 focus:ring-stone-500" on:click={toggleDropdown}
+        >
+          <div class="outline flex items-center">
+            About
+            <img
+              src="src\lib\imgs\dropdown.png"
+              alt="menu"
+              class="h-2 ml-1"
+            />
+          </div>
+        </button>
+        {#if isDropdownOpen}
+        <div class="mt-2" transition:slide>
+          <p class="text-lg pb-4">{About}</p>
+          <h1 class="text-lg">Backend</h1>
+          <p class="text-lg">{Backend}</p>
+        </div>
+        <div class="mt-2">
+          <h1 class="text-lg">Frontend</h1>
+          <p class="text-lg">{Frontend}</p>
+        </div>
+        {/if}
+
+        <!-- Links -->
+        <div class="flex justify-center mt-4 space-x-3">
+          <a href="{GhUrl}" class="flex items-center">
+            <img src="src/lib/imgs/githublogo.png" class="w-8 h-8" />
+            <span class="text-lg">View on Github</span>
+          </a>
+          <a href="{YtUrl}" class="flex items-center">
+            <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-9 h-6" />
+            <span class="text-lg">View on Youtube</span>
+          </a>
+          {#if DeployedUrl != ""}
+            <a href="{DeployedUrl}" class="flex items-center">
+              <img src="src/lib/imgs/weblogo.png" class="w-8 h-8" />
+              <span class="text-lg">Try it Out</span>
+            </a>
+          {/if}
+        </div>
+      </div>
+      <!-- Technology Images -->
+      <div class="flex justify-center items-center py-2 space-x-5">
+        {#each TechImgs as img}
+          <img src="{img}" class="w-12 h-12" />
+        {/each}
+      </div>
+    </div>
+  </div>
+  
+
+  
 </div>
