@@ -5,6 +5,5 @@
 <div class="relative">
     {#each ExperienceData as card}
         <ExperienceCard {...card} />
-    {/each}
-        
+    {/each}      
 </div>
