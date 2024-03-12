@@ -60,7 +60,7 @@
   </div>
   {#if isDropdownOpen}
     <div
-      class="z-50 w-full bg-stone-900 outline shadow-lg  focus:outline-none"
+      class="z-50 w-full relative bg-stone-900 outline shadow-lg  focus:outline-none"
       role="menu"
       transition:slide
     >
