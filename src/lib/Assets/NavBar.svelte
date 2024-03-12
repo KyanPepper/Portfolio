@@ -28,16 +28,18 @@
   </a>
     <div class="hidden sm:flex items-center space-x-4 justify-center flex-grow">
       <a href="/Experience" class="text-stone-300 font-sans text-2xl">Experience</a>
-      <a href="/Projects" class="text-stone-300 font-sans text-2xl">Projects</a>
+      <a href="/Skills" class="text-stone-300 font-sans text-2xl">Skills</a>
       <a href="/Resume" class="text-stone-300 font-sans text-2xl">Resume</a>
     </div>
     <div class="ml-auto pr-2">
+      <a href="/Projects">
       <button
         type="button"
         class="inline-flex justify-center rounded-md outline outline-offset-4 text-2xl text-stone-300 font-sans"
       >
-        Contact
+        Portfolio
       </button>
+    </a>
     </div>
 
     <div class="flex sm:hidden">
@@ -71,9 +73,9 @@
           >Experience</a
         >
         <a
-          href="/Projects"
+          href="/Skills"
           class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100" on:click={toggleDropdown}
-          >Projects</a
+          >Skills</a
         >
         <a
           href="/Resume"

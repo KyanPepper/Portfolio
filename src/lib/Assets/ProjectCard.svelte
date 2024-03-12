@@ -49,18 +49,15 @@
             <p class="text-xs">{About}</p>
           </div>
           {#if Backend != ""}
-          <div class="mt-4 text-white font-sans">
-            <h1 class="text-base">Backend</h1>
-            <p class="text-xs">{Backend}</p>
-          </div>
-          <div class="mt-4 text-white font-sans">
-            <h1 class="text-base">Frontend</h1>
-            <p class="text-xs">{Frontend}</p>
-          </div>
+            <div class="mt-4 text-white font-sans">
+              <h1 class="text-base">Backend</h1>
+              <p class="text-xs">{Backend}</p>
+            </div>
+            <div class="mt-4 text-white font-sans">
+              <h1 class="text-base">Frontend</h1>
+              <p class="text-xs">{Frontend}</p>
+            </div>
           {/if}
-          
-         
-          
 
           <!-- Links -->
           <div class="mt-4 text-white font-sans text-xs">
@@ -89,9 +86,9 @@
             </div>
           </div>
           {#if Backend == ""}
-          <div class="pb-3">
-            <img src={img2} class="w-full outline outline-black" />
-          </div>
+            <div class="pb-3">
+              <img src={img2} class="w-full outline outline-black" />
+            </div>
           {/if}
         </div>
       </div>
@@ -102,9 +99,9 @@
             <img src={img1} class="w-full outline outline-black" />
           </div>
           {#if Backend != ""}
-          <div class="pb-3">
-            <img src={img2} class="w-full outline outline-black" />
-          </div>
+            <div class="pb-3">
+              <img src={img2} class="w-full outline outline-black" />
+            </div>
           {/if}
         </div>
       </div>
