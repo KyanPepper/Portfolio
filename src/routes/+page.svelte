@@ -32,7 +32,7 @@
                 class="flex items-center"
               >
                 <img src="src\lib\imgs\linkedin.png" class="size-5" />
-                <span class="pl-1 pr-5">Kyan Kotschevar-Smead</span>
+                <span class="pl-1 pr-4">Kyan Kotschevar-Smead</span>
               </a>
               <a
                 href="https://www.youtube.com/@kyanks"
