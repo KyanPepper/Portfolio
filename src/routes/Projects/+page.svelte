@@ -25,144 +25,78 @@
   }
 </script>
 
-<div
-  id="controls-carousel"
-  class=" flex justify-between items-center w-full h-max"
-  data-carousel="static"
->
-  <!-- Previous Button -->
-  <button
-    on:click={goToPrevious}
-    type="button"
-    class="tablet:flex hidden relative top-0 start-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-prev
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M5 1 1 5l4 4"
+<div class="tablet:flex hidden h-screen">
+  <!-- Left side images -->
+  <div class="flex items-start justify-center w-1/2 pt-10">
+    <div class="w-5/6 h-5/6 relative">
+      <img
+        src={ProjectCards[currentIndex].img1}
+        title="img1"
+        alt="img1"
+        class=""
+      />
+      {#if ProjectCards[currentIndex].img2 != ""}
+        <img
+          src={ProjectCards[currentIndex].img2}
+          title="img2"
+          alt="img2"
+          class=""
         />
-      </svg>
-      <span class="sr-only">Previous</span>
-    </span>
-  </button>
-
-  <!-- Project Card -->
-  <div
-    class="relative hidden tablet:flex justify-center items-center h-full w-8/12 py-5 drop-shadow-2xl"
-  >
-    <ProjectCard {...ProjectCards[currentIndex]} />
+      {/if}
+    </div>
   </div>
 
-  <!-- Next Button -->
-  <button
-    on:click={goToNext}
-    type="button"
-    class="tablet:flex hidden realtive top-0 end-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-next
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="m1 9 4-4-4-4"
-        />
-      </svg>
-      <span class="sr-only">Next</span>
-    </span>
-  </button>
-</div>
+  <div class="flex justify-center w-1/2 pt-10">
+    <div class="text-center">
+      <h1 class="text-center text-4xl font-sans text-white">
+        {ProjectCards[currentIndex].Title}
+      </h1>
 
-<!--Project Card Mobile-->
-<div
-  class="justify-center w-full tablet:hidden items-center h-full pt-5 drop-shadow-2xl"
->
-  <ProjectCard {...ProjectCards[currentIndex]} />
-</div>
-
-<div
-  id="controls-carousel"
-  class=" py-5 flex tablet:hidden justify-between items-center w-full h-max fixed bottom-0"
-  data-carousel="static"
->
-  <!-- Previous Button -->
-  <button
-    on:click={goToPrevious}
-    type="button"
-    class="flex relative top-0 start-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-prev
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M5 1 1 5l4 4"
-        />
-      </svg>
-      <span class="sr-only">Previous</span>
-    </span>
-  </button>
-
-  <!-- Next Button -->
-  <button
-    on:click={goToNext}
-    type="button"
-    class="flex realtive top-0 end-0 z-30 items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-    data-carousel-next
-  >
-    <span
-      class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
-    >
-      <svg
-        class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 6 10"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="m1 9 4-4-4-4"
-        />
-      </svg>
-      <span class="sr-only">Next</span>
-    </span>
-  </button>
+      <div class="flex justify-center mt-2 space-x-3">
+        <a href={ProjectCards[currentIndex].GhUrl} class="flex items-center">
+          <img src="src/lib/imgs/githublogo.png" class="w-8 h-8" />
+          <span class="text-lg font-sans text-white">View on Github</span>
+        </a>
+        <a href={ProjectCards[currentIndex].YtUrl} class="flex items-center">
+          <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-9 h-6" />
+          <span class="text-lg font-sans text-white">View on Youtube</span>
+        </a>
+        {#if ProjectCards[currentIndex].DeployedUrl != ""}
+          <a
+            href={ProjectCards[currentIndex].DeployedUrl}
+            class="flex items-center"
+          >
+            <img src="src/lib/imgs/weblogo.png" class="w-8 h-8" />
+            <span class="text-lg font-sans text-white">Try it Out</span>
+          </a>
+        {/if}
+      </div>
+      <div class=" text-white font-sans">
+        <h1 class="text-lg">About</h1>
+        <p class="text-base text-left">{ProjectCards[currentIndex].About}</p>
+      </div>
+      {#if ProjectCards[currentIndex].Backend != ""}
+        <div class=" text-white font-sans">
+          <h1 class="text-lg">Backend</h1>
+          <p class="text-base text-left py-1">
+            {ProjectCards[currentIndex].Backend}
+          </p>
+        </div>
+        <div class=" text-white font-sans">
+          <h1 class="text-lg">Frontend</h1>
+          <p class="text-base text-left">
+            {ProjectCards[currentIndex].Frontend}
+          </p>
+        </div>
+      {/if}
+      <div class="absolute bottom-0 right-1/4 translate-x-10">
+        <button
+          class="bg-orange-500 hover:bg-orange-400 text-white font-sans font-bold py-2 px-4 rounded"
+          on:click={goToNext}
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
 </div>

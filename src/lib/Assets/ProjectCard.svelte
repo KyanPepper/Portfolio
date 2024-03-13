@@ -154,22 +154,7 @@
         {/if}
 
         <!-- Links -->
-        <div class="flex justify-center mt-4 space-x-3">
-          <a href={GhUrl} class="flex items-center">
-            <img src="src/lib/imgs/githublogo.png" class="w-8 h-8" />
-            <span class="text-lg">View on Github</span>
-          </a>
-          <a href={YtUrl} class="flex items-center">
-            <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-9 h-6" />
-            <span class="text-lg">View on Youtube</span>
-          </a>
-          {#if DeployedUrl != ""}
-            <a href={DeployedUrl} class="flex items-center">
-              <img src="src/lib/imgs/weblogo.png" class="w-8 h-8" />
-              <span class="text-lg">Try it Out</span>
-            </a>
-          {/if}
-        </div>
+       
       </div>
       <!-- Technology Images -->
       <div class="flex justify-center items-center py-2 space-x-5">

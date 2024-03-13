@@ -62,7 +62,7 @@
 
 
   <div class="tablet:hidden">
-    <h1 class="font-sans  text-white text-6xl text-center mt-1 py-1 ">Languages</h1>
+    <h1 class="font-sans  text-white text-6xl text-center mt-5 py-1 ">Languages</h1>
     <div class="flex justify-center items-center py-2 space-x-5  ">
         {#each languagesAry as img}
           <img src={img} class="w-11 h-11" />

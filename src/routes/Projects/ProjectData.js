@@ -57,7 +57,7 @@ export const ProjectCards = [
     About:
       "This project simulates a Unix shell environment, offering fundamental filesystem functionalities such as ls, cd, pwd, mkdir, and beyond. It facilitates tree serialization and deserialization into text files. Developed within a Linux environment utilizing WSL, the project leverages diverse data structures, including linked lists, to construct its n-array Tree.",
     img1: "src/lib/ProjectScreenShots/fs1v2.png",
-    img2: "src/lib/ProjectScreenShots/FS2.png",
+    img2: "",
     Frontend:
       "",
     Backend:
