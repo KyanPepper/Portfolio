@@ -3,7 +3,7 @@
   <div class="hidden tablet:flex justify-center items-center h-screen w-1/2">
     <div class="text-center">
       <h1 class="text-4xl text-white">
-        Hi, I'm Kyan Kotschevar-Smead, a software developer and a Computer
+        Hi, I'm Kyan Kotschevar-Smead, a Software Developer and a Computer
         Science student at Washington State University
       </h1>
       <div class="pt-5">

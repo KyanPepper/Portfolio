@@ -14,10 +14,10 @@
   }
 </script>
 
-<nav class="relative w-full h-36 sm:h-30 bg-stone-600 bg-opacity-5 outline">
+<nav class="relative w-full h-16 sm:h-30 bg-stone-600 bg-opacity-5 outline">
   <div class="flex items-center h-full max-w-screen-lg mx-auto">
     <a href="/" on:click={conditionalDropdown}>
-    <div class="text-stone-300 text-3xl font-sans flex items-center">
+    <div class="text-white text-3xl font-sans flex items-center">
       Kyan
       <img
         src="src\lib\imgs\orange-4235372_1280.png"
@@ -27,15 +27,15 @@
     </div>
   </a>
     <div class="hidden sm:flex items-center space-x-4 justify-center flex-grow">
-      <a href="/Experience" class="text-stone-300 font-sans text-2xl">Experience</a>
-      <a href="/Skills" class="text-stone-300 font-sans text-2xl">Skills</a>
-      <a href="/Resume" class="text-stone-300 font-sans text-2xl">Resume</a>
+      <a href="/Experience" class="text-white font-sans text-2xl">Experience</a>
+      <a href="/Skills" class="text-white font-sans text-2xl">Skills</a>
+      <a href="/Resume" class="text-white font-sans text-2xl">Resume</a>
     </div>
     <div class="ml-auto pr-2">
       <a href="/Projects">
       <button
         type="button"
-        class="inline-flex justify-center rounded-md outline outline-offset-4 text-2xl text-stone-300 font-sans"
+        class="inline-flex justify-center rounded-md outline outline-offset-4 text-2xl text-white font-sans" on:click={conditionalDropdown}
       >
         Portfolio
       </button>
@@ -69,7 +69,7 @@
       <div>
         <a
           href="/Experience"
-          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100"
+          class="text-stone-300 block px-4 py-2 text-2xl hover:bg-gray-100" on:click={toggleDropdown}
           >Experience</a
         >
         <a
