@@ -37,11 +37,19 @@
 
     <div class="flex justify-center mt-2 space-x-3">
       <a href={GhUrl} class="flex items-center">
-        <img src="src/lib/imgs/githublogo.png" alt="GitHub Logo" class="w-8 h-8" />
+        <img
+          src="src/lib/imgs/githublogo.png"
+          alt="GitHub Logo"
+          class="w-8 h-8"
+        />
         <span class="text-lg font-sans text-white">View on Github</span>
       </a>
       <a href={YtUrl} class="flex items-center">
-        <img src="src/lib/imgs/Red-YouTube-logo.png" alt="YouTube Logo" class="w-9 h-6" />
+        <img
+          src="src/lib/imgs/Red-YouTube-logo.png"
+          alt="YouTube Logo"
+          class="w-9 h-6"
+        />
         <span class="text-lg font-sans text-white">View on Youtube</span>
       </a>
       {#if DeployedUrl != ""}
@@ -66,12 +74,16 @@
       {#if isDropdownOpen}
         <div class="mt-2" transition:slide>
           <p class="text-lg pb-4">{About}</p>
-          <h1 class="text-lg">Backend</h1>
-          <p class="text-lg">{Backend}</p>
+          {#if Backend != ""}
+            <h1 class="text-lg">Backend</h1>
+            <p class="text-lg">{Backend}</p>
+          {/if}
         </div>
         <div class="mt-2">
-          <h1 class="text-lg">Frontend</h1>
-          <p class="text-lg">{Frontend}</p>
+          {#if Backend != ""}
+            <h1 class="text-lg">Frontend</h1>
+            <p class="text-lg">{Frontend}</p>
+          {/if}
         </div>
       {/if}
     </div>
