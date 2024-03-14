@@ -7,11 +7,13 @@
         Science student at Washington State University
       </h1>
       <div class="pt-5">
+        <a href="/Projects">
         <button
           class="bg-orange-500 hover:bg-orange-400 text-white font-sans font-bold py-2 px-4 rounded"
         >
           Let's Get Started
         </button>
+      </a>
 
         <div class="mt-4 text-white font-sans text-xs">
           <div class="flex justify-center">
@@ -81,12 +83,13 @@
   <div
     class="tablet:hidden ml-auto mr-auto justify-center pt-5 pb-10 flex flex-col items-center"
   >
+  <a href="/Projects">
     <button
       class="bg-orange-500 hover:bg-orange-400 text-white font-sans font-bold py-2 px-4 rounded"
     >
       Let's Get Started
     </button>
-
+  </a>
     <div
       class="mt-4 text-white font-sans text-xs flex flex-wrap justify-center"
     >

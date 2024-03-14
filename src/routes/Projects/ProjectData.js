@@ -3,7 +3,7 @@ export const ProjectCards = [
     //Washconstruction
     TechImgs: [
       "src/lib/imgs/1200px-Python.svg.png",
-      "src/lib/imgs/flasklogo.png",
+      "src/lib/imgs/flask.png",
       "src/lib/imgs/Postgresql_elephant.svg.png",
       "src/lib/imgs/1200px-Svelte_Logo.svg.png",
       "src/lib/imgs/tailwind.svg",
@@ -29,7 +29,7 @@ export const ProjectCards = [
       "src/lib/imgs/1200px-Python.svg.png",
       "src/lib/imgs/django-icon.svg",
       "src/lib/imgs/sqlLite.png",
-      "src/lib/imgs/React.png",
+      "src/lib/imgs/react.svg",
       "src/lib/imgs/JavaScript-logo.png"
     ],
 
@@ -70,7 +70,7 @@ export const ProjectCards = [
     //Smile App
     TechImgs: [
       "src/lib/imgs/1200px-Python.svg.png",
-      "src/lib/imgs/flasklogo.png",
+      "src/lib/imgs/flask.png",
       "src/lib/imgs/sqlLite.png",
       "src/lib/imgs/htmllogo.png",
       "src/lib/imgs/css.png",

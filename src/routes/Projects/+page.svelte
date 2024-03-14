@@ -1,7 +1,11 @@
 <script>
+  // @ts-nocheck
+
   import { onMount, createEventDispatcher } from "svelte";
-  import ProjectCard from "$lib/Assets/ProjectCard.svelte";
+  import MobileProjectCard from "$lib/Assets/MobileProjectCard.svelte";
   import { ProjectCards } from "./ProjectData";
+
+  let isDropdownOpen = false;
 
   const dispatch = createEventDispatcher();
   let currentIndex = 0;
@@ -25,9 +29,10 @@
   }
 </script>
 
+<!---Desktop-->
 <div class="tablet:flex hidden h-screen">
   <!-- Left side images -->
-  <div class="flex items-start justify-center w-1/2 pt-10">
+  <div class="flex items-start justify-center w-1/2 pt-10 mb-10">
     <div class="w-5/6 h-5/6 relative">
       <img
         src={ProjectCards[currentIndex].img1}
@@ -45,12 +50,17 @@
       {/if}
     </div>
   </div>
-
+  <!---Right side-->
   <div class="flex justify-center w-1/2 pt-10">
     <div class="text-center">
       <h1 class="text-center text-4xl font-sans text-white">
         {ProjectCards[currentIndex].Title}
       </h1>
+      <div class="flex justify-center items-center py-2 space-x-5">
+        {#each ProjectCards[currentIndex].TechImgs as img}
+          <img src={img} class="w-8 h-8" />
+        {/each}
+      </div>
 
       <div class="flex justify-center mt-2 space-x-3">
         <a href={ProjectCards[currentIndex].GhUrl} class="flex items-center">
@@ -99,4 +109,23 @@
       </div>
     </div>
   </div>
+</div>
+
+<!---Mobile-->
+
+<div class="tablet:hidden h-screen">
+  {#each ProjectCards as card}
+    <MobileProjectCard
+      Title={card.Title}
+      TechImgs={card.TechImgs}
+      GhUrl={card.GhUrl}
+      YtUrl={card.YtUrl}
+      DeployedUrl={card.DeployedUrl}
+      About={card.About}
+      Backend={card.Backend}
+      Frontend={card.Frontend}
+      img1={card.img1}
+      img2={card.img2}
+    />
+  {/each}
 </div>
