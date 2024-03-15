@@ -3,13 +3,14 @@
     "$lib/Assets/Kotschevar-Smead_Resume.pdf",
     import.meta.url
   ).href;
-  const ResumeImg = "$lib/Assets/KyanResumeimg.jpg";
+  
   function downloadResume() {
     const link = document.createElement("a");
     link.href = Resume;
     link.download = "Kotschevar-Smead_Resume.pdf";
     link.click();
   }
+  import ResumeImg from "$lib/imgs/KyanResumeimg.jpg";
 </script>
 
 <!-- Desktop design -->
