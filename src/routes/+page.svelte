@@ -1,9 +1,9 @@
 <script>
-  const githubLogo = '/src/lib/imgs/githublogo.png';
-  const gmailIcon = '/src/lib/imgs/Gmail_icon_(2020).svg.webp';
-  const linkedinLogo = '/src/lib/imgs/linkedin.png';
-  const youtubeLogo = '/src/lib/imgs/Red-YouTube-logo.png';
-  const kyansnowImage = '/src/lib/imgs/kyansnow.jpg';
+  const githubLogo = '$lib/imgs/githublogo.png';
+  import kyansnowImage from '$lib/imgs/kyansnow.jpg';
+  const gmailIcon = '$lib/imgs/Gmail_icon_(2020).svg.webp';
+  const linkedinLogo = '$lib/imgs/linkedin.png';
+  const youtubeLogo = '$lib/imgs/Red-YouTube-logo.png';
 </script>
 
 <div class="tablet:flex">
