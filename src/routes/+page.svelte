@@ -1,9 +1,9 @@
 <script>
-  import githubLogo from 'src/lib/imgs/githublogo.png';
-  import gmailIcon from 'src/lib/imgs/Gmail_icon_(2020).svg.webp';
-  import linkedinLogo from 'src/lib/imgs/linkedin.png';
-  import youtubeLogo from 'src/lib/imgs/Red-YouTube-logo.png';
-  import kyansnowImage from 'src/lib/imgs/kyansnow.jpg';
+  const githubLogo = new URL('src/lib/imgs/githublogo.png', import.meta.url).href;
+  const gmailIcon = new URL('src/lib/imgs/Gmail_icon_(2020).svg.webp', import.meta.url).href;
+  const linkedinLogo = new URL('src/lib/imgs/linkedin.png', import.meta.url).href;
+  const youtubeLogo = new URL('src/lib/imgs/Red-YouTube-logo.png', import.meta.url).href;
+  const kyansnowImage = new URL('src/lib/imgs/kyansnow.jpg', import.meta.url).href;
 </script>
 
 <div class="tablet:flex">
