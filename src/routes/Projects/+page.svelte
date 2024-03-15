@@ -4,6 +4,9 @@
   import { onMount, createEventDispatcher } from "svelte";
   import MobileProjectCard from "$lib/Assets/MobileProjectCard.svelte";
   import { ProjectCards } from "./ProjectData";
+  import githubLogo from "$lib/imgs/githublogo.png";
+  import youtubeLogo from "$lib/imgs/Red-YouTube-logo.png";
+  import webLogo from "$lib/imgs/weblogo.png";
 
   let isDropdownOpen = false;
 
@@ -68,11 +71,11 @@
 
         <div class="flex justify-center mt-2 space-x-3">
           <a href={ProjectCards[currentIndex].GhUrl} class="flex items-center">
-            <img src="src/lib/imgs/githublogo.png" class="w-8 h-8" />
+            <img src={githubLogo} class="w-8 h-8" />
             <span class="text-lg font-sans text-white">View on Github</span>
           </a>
           <a href={ProjectCards[currentIndex].YtUrl} class="flex items-center">
-            <img src="src/lib/imgs/Red-YouTube-logo.png" class="w-9 h-6" />
+            <img src={youtubeLogo} class="w-9 h-6" />
             <span class="text-lg font-sans text-white">View on Youtube</span>
           </a>
           {#if ProjectCards[currentIndex].DeployedUrl != ""}
@@ -80,7 +83,7 @@
               href={ProjectCards[currentIndex].DeployedUrl}
               class="flex items-center"
             >
-              <img src="src/lib/imgs/weblogo.png" class="w-8 h-8" />
+              <img src={webLogo} class="w-8 h-8" />
               <span class="text-lg font-sans text-white">Try it Out</span>
             </a>
           {/if}

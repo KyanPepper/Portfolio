@@ -13,7 +13,13 @@ import LinuxPenguinImg from "$lib/imgs/linuxpenguin.png";
 import HtmlLogoImg from "$lib/imgs/htmllogo.png";
 import CssImg from "$lib/imgs/css.png";
 import BootstrapImg from "$lib/imgs/Bootstrap_logo.svg.png";
-
+import washconstruction1 from "$lib/ProjectScreenShots/washconstruction1.png";
+import washconstruction2 from "$lib/ProjectScreenShots/washconstruction2.png";
+import slangSpeak1 from "$lib/ProjectScreenShots/slangspeak1.png";
+import slangSpeak2 from "$lib/ProjectScreenShots/slangspeak2.png";
+import fs1v2 from "$lib/ProjectScreenShots/fs1v2.png";
+import smileapp1 from "$lib/ProjectScreenShots/smileapp1.png";
+import smileapp2 from "$lib/ProjectScreenShots/smileapp2.png";
 export const ProjectCards = [
   {
     //Washconstruction
@@ -29,8 +35,8 @@ export const ProjectCards = [
     Title: "Washington Construction Projects",
     About:
       "WCP is a webscraper map visualization tool tailored for tracking construction projects in Washington. It categorizes construction projects by county, presenting a streamlined list and visual representation on a map to inform users on various projects.",
-    img1: "src/lib/ProjectScreenShots/washconstruction1.png",
-    img2: "src/lib/ProjectScreenShots/washconstruction2.png",
+    img1: washconstruction1,
+    img2: washconstruction2,
     Frontend:
       "The Frontend is built on SvelteKit and styled with Tailwind CSS. I had used the Leaflet library for the map.",
     Backend:
@@ -52,8 +58,8 @@ export const ProjectCards = [
     Title: "SlangSpeak",
     About:
       "SlangSpeak is a language learning platform, similar to Duolingo, but focused on teaching slang words. You can practice or take exams, signing in through SlangSpeak to track progress. Exams consist of random slang terms and their definitions, while Practice Mode uses the same bank without affecting scores.",
-    img1: "src/lib/ProjectScreenShots/slangspeak2.png",
-    img2: "src/lib/ProjectScreenShots/slangspeak1.png",
+    img1: slangSpeak2,
+    img2: slangSpeak1,
     Frontend:
       "The Frontend was built with React class based components utilizing MUI for the UI.",
     Backend:
@@ -72,7 +78,7 @@ export const ProjectCards = [
     Title: "Unix File System Tree",
     About:
       "This project simulates a Unix shell environment, offering fundamental filesystem functionalities such as ls, cd, pwd, mkdir, and beyond. It facilitates tree serialization and deserialization into text files. Developed within a Linux environment utilizing WSL, the project leverages diverse data structures, including linked lists, to construct its n-array Tree.",
-    img1: "src/lib/ProjectScreenShots/fs1v2.png",
+    img1: fs1v2,
     img2: "",
     Frontend:
       "",
@@ -96,8 +102,8 @@ export const ProjectCards = [
     Title: "Smile App",
     About:
       "SmileApp is a social media app that allows users to post create accounts, and post about what makes them happy to be seen by others. Users can securely create an account, which enables them to access and interact with other users' posts on the platform. Be able to like, create, filter, and view a wide diversity of posts.",
-    img1: "src/lib/ProjectScreenShots/smileapp1.png",
-    img2: "src/lib/ProjectScreenShots/smileapp2.png",
+    img1: smileapp1,
+    img2: smileapp2,
     Frontend:
       "Built-in basic HTML and CSS utilizes Jinja2 for templating python",
     Backend:
