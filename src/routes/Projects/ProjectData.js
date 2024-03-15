@@ -101,7 +101,7 @@ export const ProjectCards = [
 
     Title: "Smile App",
     About:
-      "SmileApp is a social media app that allows users to post create accounts, and post about what makes them happy to be seen by others. Users can securely create an account, which enables them to access and interact with other users' posts on the platform. Be able to like, create, filter, and view a wide diversity of posts.",
+      "SmileApp is a social media app that allows users create accounts, and post about what makes them happy to be seen by others. Users can securely create an account, which enables them to access and interact with other users' posts on the platform. Be able to like, create, filter, and view a wide diversity of posts.",
     img1: smileapp1,
     img2: smileapp2,
     Frontend:

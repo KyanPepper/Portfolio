@@ -36,7 +36,7 @@
 
 <div class="tablet:flex justify-center items-center h-screen hidden flex-col">
   <div
-    class="w-5/6 h-5/6 tablet:flex hidden border border-white justify-center items-center"
+    class="w-5/6 h-5/6 tablet:flex hidden border border-white bg-stone-800 justify-center items-center"
   >
     <!-- Left side images -->
     <div class="flex items-start justify-center w-1/2">
