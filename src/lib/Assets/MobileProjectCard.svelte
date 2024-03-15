@@ -1,5 +1,9 @@
 <script>
   import { slide } from "svelte/transition";
+  import githubLogo from "$lib/imgs/githublogo.png";
+  import youtubeLogo from "$lib/imgs/Red-YouTube-logo.png";
+  import webLogo from "$lib/imgs/weblogo.png";
+  import dropdownIcon from "$lib/imgs/dropdown.png";
 
   // @ts-ignore
   /**
@@ -38,7 +42,7 @@
     <div class="flex justify-center mt-2 space-x-3">
       <a href={GhUrl} class="flex items-center">
         <img
-          src="src/lib/imgs/githublogo.png"
+          src={githubLogo}
           alt="GitHub Logo"
           class="w-8 h-8"
         />
@@ -46,7 +50,7 @@
       </a>
       <a href={YtUrl} class="flex items-center">
         <img
-          src="src/lib/imgs/Red-YouTube-logo.png"
+          src={youtubeLogo}
           alt="YouTube Logo"
           class="w-9 h-6"
         />
@@ -54,7 +58,7 @@
       </a>
       {#if DeployedUrl != ""}
         <a href={DeployedUrl} class="flex items-center">
-          <img src="src/lib/imgs/weblogo.png" class="w-8 h-8" />
+          <img src={webLogo} class="w-8 h-8" />
           <span class="text-lg font-sans text-white">Try it Out</span>
         </a>
       {/if}
@@ -68,7 +72,7 @@
       >
         <div class="outline flex items-center text-left">
           About
-          <img src="src\lib\imgs\dropdown.png" alt="menu" class="h-2 ml-1" />
+          <img src={dropdownIcon} alt="menu" class="h-2 ml-1" />
         </div>
       </button>
       {#if isDropdownOpen}

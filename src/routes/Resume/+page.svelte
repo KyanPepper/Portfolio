@@ -1,9 +1,9 @@
 <script>
   const Resume = new URL(
-    "/src/lib/Assets/Kotschevar-Smead_Resume.pdf",
+    "$lib/Assets/Kotschevar-Smead_Resume.pdf",
     import.meta.url
   ).href;
-  const ResumeImg = "/src/lib/Assets/KyanResumeimg.jpg";
+  const ResumeImg = "$lib/Assets/KyanResumeimg.jpg";
   function downloadResume() {
     const link = document.createElement("a");
     link.href = Resume;

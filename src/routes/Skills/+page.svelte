@@ -3,6 +3,7 @@
    * @type {[]}
    */
   import { languagesAry, backendAry, frontendAry, toolsAry } from "./icons.js";
+  import stickers from "$lib/imgs/Stickers.png";
 </script>
 
 <div class="tablet:flex hidden">
@@ -11,7 +12,7 @@
   <!-- Leftside -->
   <div class="tablet:flex hidden justify-center items-center h-screen w-1/2">
     <img
-      src="src\lib\imgs\Stickers.png"
+      src={stickers}
       class="w-5/6 rounded-2xl shadow-2xl drop-shadow-2xl"
     />
   </div>
@@ -86,7 +87,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
-    Flask, Django, PostgeSQL, MongoDB
+    Flask, Django, MongoDB, PostgeSQL
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">
     Frontend Technologies

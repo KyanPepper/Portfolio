@@ -1,13 +1,29 @@
+import PythonImg from "$lib/imgs/1200px-Python.svg.png";
+import FlaskImg from "$lib/imgs/flask.png";
+import PostgresqlImg from "$lib/imgs/Postgresql_elephant.svg.png";
+import SvelteImg from "$lib/imgs/1200px-Svelte_Logo.svg.png";
+import TailwindImg from "$lib/imgs/tailwind.svg";
+import TypescriptImg from "$lib/imgs/Typescript_logo_2020.svg.png";
+import DjangoImg from "$lib/imgs/django-icon.svg";
+import SqlLiteImg from "$lib/imgs/sqlLite.png";
+import ReactImg from "$lib/imgs/react.svg";
+import JavaScriptImg from "$lib/imgs/JavaScript-logo.png";
+import CImg from "$lib/imgs/C.png";
+import LinuxPenguinImg from "$lib/imgs/linuxpenguin.png";
+import HtmlLogoImg from "$lib/imgs/htmllogo.png";
+import CssImg from "$lib/imgs/css.png";
+import BootstrapImg from "$lib/imgs/Bootstrap_logo.svg.png";
+
 export const ProjectCards = [
   {
     //Washconstruction
     TechImgs: [
-      "src/lib/imgs/1200px-Python.svg.png",
-      "src/lib/imgs/flask.png",
-      "src/lib/imgs/Postgresql_elephant.svg.png",
-      "src/lib/imgs/1200px-Svelte_Logo.svg.png",
-      "src/lib/imgs/tailwind.svg",
-      "src/lib/imgs/Typescript_logo_2020.svg.png"
+      PythonImg,
+      FlaskImg,
+      PostgresqlImg,
+      SvelteImg,
+      TailwindImg,
+      TypescriptImg
     ],
 
     Title: "Washington Construction Projects",
@@ -26,11 +42,11 @@ export const ProjectCards = [
   {
     //SlangSpeak
     TechImgs: [
-      "src/lib/imgs/1200px-Python.svg.png",
-      "src/lib/imgs/django-icon.svg",
-      "src/lib/imgs/sqlLite.png",
-      "src/lib/imgs/react.svg",
-      "src/lib/imgs/JavaScript-logo.png"
+      PythonImg,
+      DjangoImg,
+      SqlLiteImg,
+      ReactImg,
+      JavaScriptImg
     ],
 
     Title: "SlangSpeak",
@@ -49,8 +65,8 @@ export const ProjectCards = [
   {
     //File System Tree
     TechImgs: [
-      "src/lib/imgs/C.png",
-      "src/lib/imgs/linuxpenguin.png"
+      CImg,
+      LinuxPenguinImg
     ],
 
     Title: "Unix File System Tree",
@@ -69,12 +85,12 @@ export const ProjectCards = [
   {
     //Smile App
     TechImgs: [
-      "src/lib/imgs/1200px-Python.svg.png",
-      "src/lib/imgs/flask.png",
-      "src/lib/imgs/sqlLite.png",
-      "src/lib/imgs/htmllogo.png",
-      "src/lib/imgs/css.png",
-      "src/lib/imgs/Bootstrap_logo.svg.png"
+      PythonImg,
+      FlaskImg,
+      SqlLiteImg,
+      HtmlLogoImg,
+      CssImg,
+      BootstrapImg
     ],
 
     Title: "Smile App",

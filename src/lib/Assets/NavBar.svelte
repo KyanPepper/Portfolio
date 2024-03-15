@@ -2,11 +2,15 @@
   import "../../app.css";
   export let isDropdownOpen = false;
   import { slide } from "svelte/transition";
+  import orangeImage from "$lib/imgs/orange-4235372_1280.png";
+  import hamburgerImage from "$lib/imgs/1200px-Hamburger_icon_white.svg.png";
+  
   function conditionalDropdown() {
     if (isDropdownOpen) {
       isDropdownOpen = !isDropdownOpen;
     }
   }
+  
   function toggleDropdown() {
     isDropdownOpen = !isDropdownOpen;
   }
@@ -18,7 +22,7 @@
       <div class="text-white text-3xl font-sans flex items-center">
         Kyan
         <img
-          src="src\lib\imgs\orange-4235372_1280.png"
+          src={orangeImage}
           alt="Orange"
           class="h-10 sm:h-15 ml-2"
         />
@@ -51,7 +55,7 @@
           on:click={toggleDropdown}
         >
           <img
-            src="src\lib\imgs\1200px-Hamburger_icon_white.svg.png"
+            src={hamburgerImage}
             alt="menu"
             class="h-10 sm:h-15"
           />
