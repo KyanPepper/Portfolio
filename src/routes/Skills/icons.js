@@ -14,23 +14,30 @@ import FlutterImg from "$lib/imgs/Flutter_logo.svg.png";
 import GithubImg from "$lib/imgs/githublogo.png";
 import LinuxImg from "$lib/imgs/linuxpenguin.png";
 import SwaggerImg from "$lib/imgs/swagger-icon-512x512-halz44im.png";
-
+import VueImg from "$lib/imgs/Vue.png";
+import NETImg from "$lib/imgs/.Net.png";
+import CSharpimg from "$lib/imgs/Csharp.png";
+import MySQlImg from "$lib/imgs/mysql.svg";
+import AzureImg from "$lib/imgs/azure.png";
 // @ts-ignore
 
 export const languagesAry = [
   PythonImg,
   CImg,
   CppImg,
+  CSharpimg,
   TypeScriptImg,
   JavaScriptImg,
 ];
 
 
 export const backendAry = [
+  NETImg,
   FlaskImg,
   DjangoImg,
   MongoImg,
   PostgresqlImg,
+  MySQlImg,
 ];
 
 
@@ -39,6 +46,7 @@ export const frontendAry = [
   SvelteImg,
   TailwindImg,
   FlutterImg,
+  VueImg,
 ];
 
 
@@ -46,4 +54,5 @@ export const toolsAry = [
   GithubImg,
   LinuxImg,
   SwaggerImg,
+  AzureImg,
 ];

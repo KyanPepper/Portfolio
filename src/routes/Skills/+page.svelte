@@ -30,7 +30,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b pb-1">
-      Python, C, C++, JavaScript, TypeScript
+      Python, C, C#, C++, JavaScript, TypeScript
     </div>
     <h1 class="font-sans text-white text-5xl text-center mt-5 py-1 border-t">
       Backend Technologies
@@ -41,7 +41,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b pb-1">
-      Flask, Django, PostgeSQL, MongoDB
+      ASP.NET, Flask, Django, PostgeSQL, MongoDB, MySQL
     </div>
     <h1 class="font-sans text-white text-5xl text-center mt-5 py-1 border-t">
       Frontend Technologies
@@ -52,7 +52,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b pb-1">
-      React, Svelte, Tailwind, Flutter
+      React, Svelte, Tailwind, Flutter, Vue
     </div>
     <h1 class="font-sans text-white text-5xl text-center mt-5 py-1 border-t">
       Tools
@@ -63,7 +63,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b mb-1">
-      Github, WSL, Swagger
+      Github, WSL, Swagger, Azure Blob Storage
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
-    Python, C, C++, JavaScript, TypeScript
+    Python, C, C#, C++, JavaScript, TypeScript
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">
     Backend Technologies
@@ -87,7 +87,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
-    Flask, Django, MongoDB, PostgeSQL
+    ASP.NET, Flask, Django, MongoDB, PostgeSQL, MySQL
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">
     Frontend Technologies
@@ -98,7 +98,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans border-b pb-1 text-lg">
-    React, Svelte, Tailwind, Flutter
+    React, Svelte, Tailwind, Flutter, Vue
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">Tools</h1>
   <div class="flex justify-center items-center py-2 space-x-5">
@@ -107,6 +107,6 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans mb-1 text-lg">
-    Github, WSL, Swagger
+    Github, WSL, Swagger, Azure Blob Storage
   </div>
 </div>
