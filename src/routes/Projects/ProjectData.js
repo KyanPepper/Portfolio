@@ -20,6 +20,15 @@ import slangSpeak2 from "$lib/ProjectScreenShots/slangspeak2.png";
 import fs1v2 from "$lib/ProjectScreenShots/fs1v2.png";
 import smileapp1 from "$lib/ProjectScreenShots/smileapp1.png";
 import smileapp2 from "$lib/ProjectScreenShots/smileapp2.png";
+import TB1 from "$lib/ProjectScreenShots/TB1.png";
+import TB2 from "$lib/ProjectScreenShots/TB2.png";
+import VueImg from "$lib/imgs/Vue.png";
+import NETImg from "$lib/imgs/.Net.png";
+import CSharpimg from "$lib/imgs/Csharp.png";
+import MySQlImg from "$lib/imgs/mysql.svg";
+import coalesceImg from "$lib/imgs/coalesce.svg";
+import AzureImg from "$lib/imgs/azure.png";
+
 export const ProjectCards = [
   {
     //Washconstruction
@@ -45,6 +54,31 @@ export const ProjectCards = [
     YtUrl: "https://www.youtube.com/watch?v=x_e42T3naCo&ab_channel=KyanKotschevar-Smead",
     DeployedUrl: "http://www.washconstruction.com/",
   },
+  {
+    //Triangle Test Bank
+    TechImgs: [
+      CSharpimg,
+      NETImg,
+      MySQlImg,
+      VueImg,
+      coalesceImg,
+      AzureImg
+    ],
+
+    Title: "WSU Triangle Test Bank",
+    About:
+      "Triangle Test Bank is a web application designed to serve as a test bank for WSU Triangle fraternity members, providing a platform for uploading and accessing previous exams.",
+    img1: TB1,
+    img2: TB2,
+    Frontend:
+      "The frontend is built with Vue.js and uses the Vuetify library for the UI and SCSS for styling.",
+    Backend:
+    "The project leverages Coalesce for a .NET backend with C#, MySQL database with EF Core, and xUnit for testing. Additionally, it implements Azure Blob Storage for storing exam files in the cloud.",
+    GhUrl: "https://github.com/KyanPepper/Triangle.Test-Bank",
+    YtUrl: "https://www.youtube.com/watch?v=DahI0efE69U&ab_channel=KyanKotschevar-Smead",
+    DeployedUrl: "",
+  },
+  
   {
     //SlangSpeak
     TechImgs: [
