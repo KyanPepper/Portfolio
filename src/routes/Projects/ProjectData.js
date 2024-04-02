@@ -75,7 +75,7 @@ export const ProjectCards = [
     Backend:
     "The project leverages Coalesce for a .NET backend with C#, MySQL database with EF Core, and xUnit for testing. Additionally, it implements Azure Blob Storage for storing exam files in the cloud.",
     GhUrl: "https://github.com/KyanPepper/Triangle.Test-Bank",
-    YtUrl: "https://www.youtube.com/watch?v=DahI0efE69U&ab_channel=KyanKotschevar-Smead",
+    YtUrl: "https://www.youtube.com/watch?v=wWC_pJnlTGE&ab_channel=KyanKotschevar-Smead",
     DeployedUrl: "",
   },
   
