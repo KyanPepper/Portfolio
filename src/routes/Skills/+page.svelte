@@ -63,7 +63,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b mb-1">
-      Github, WSL, Swagger, Azure Blob Storage
+      Github, WSL, Swagger, Azure
     </div>
   </div>
 </div>
