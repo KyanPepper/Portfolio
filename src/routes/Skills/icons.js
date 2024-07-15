@@ -19,6 +19,10 @@ import NETImg from "$lib/imgs/.Net.png";
 import CSharpimg from "$lib/imgs/Csharp.png";
 import MySQlImg from "$lib/imgs/mysql.svg";
 import AzureImg from "$lib/imgs/azure.png";
+import EchoImg from "$lib/imgs/echo.png";
+import GoImg from "$lib/imgs/go.png";
+import GcpImg from "$lib/imgs/gcp.png";
+
 // @ts-ignore
 
 export const languagesAry = [
@@ -28,6 +32,7 @@ export const languagesAry = [
   CSharpimg,
   TypeScriptImg,
   JavaScriptImg,
+  GoImg,
 ];
 
 
@@ -36,6 +41,7 @@ export const backendAry = [
   FlaskImg,
   DjangoImg,
   MongoImg,
+  EchoImg,
   PostgresqlImg,
   MySQlImg,
 ];
@@ -55,4 +61,5 @@ export const toolsAry = [
   LinuxImg,
   SwaggerImg,
   AzureImg,
+  GcpImg,
 ];

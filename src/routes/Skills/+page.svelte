@@ -30,7 +30,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b pb-1">
-      Python, C, C#, C++, JavaScript, TypeScript
+      Python, C, C#, C++, JavaScript, TypeScript, Go
     </div>
     <h1 class="font-sans text-white text-5xl text-center mt-5 py-1 border-t">
       Backend Technologies
@@ -41,7 +41,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b pb-1">
-      ASP.NET, Flask, Django, PostgeSQL, MongoDB, MySQL
+      ASP.NET, Flask, Django, Echo PostgeSQL, MongoDB, MySQL
     </div>
     <h1 class="font-sans text-white text-5xl text-center mt-5 py-1 border-t">
       Frontend Technologies
@@ -63,7 +63,7 @@
       {/each}
     </div>
     <div class="text-center text-white font-sans border-b mb-1">
-      Github, WSL, Swagger, Azure
+      Github, WSL, Swagger, Azure, GCP
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
-    Python, C, C#, C++, JavaScript, TypeScript
+    Python, C, C#, C++, JavaScript, TypeScript, Go
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">
     Backend Technologies
@@ -87,7 +87,7 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
-    ASP.NET, Flask, Django, MongoDB, PostgeSQL, MySQL
+    ASP.NET, Flask, Django, Echo, MongoDB, PostgeSQL, MySQL
   </div>
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">
     Frontend Technologies
@@ -107,6 +107,6 @@
     {/each}
   </div>
   <div class="text-center text-white font-sans mb-1 text-lg">
-    Github, WSL, Swagger, Azure Blob Storage
+    Github, WSL, Swagger, Azure, GCP
   </div>
 </div>
