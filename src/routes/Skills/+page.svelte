@@ -72,7 +72,7 @@
   <h1 class="font-sans text-white text-6xl text-center mt-5 py-1">Languages</h1>
   <div class="flex justify-center items-center py-2 space-x-5">
     {#each languagesAry as img}
-      <img src={img} class="w-11 h-11" />
+      <img src={img} class="w-9 h-9" />
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
@@ -83,7 +83,7 @@
   </h1>
   <div class="flex justify-center items-center py-2 space-x-5">
     {#each backendAry as img}
-      <img src={img} class="w-11 h-11" />
+      <img src={img} class="w-9 h-9" />
     {/each}
   </div>
   <div class="text-center text-white font-sans text-lg border-b pb-1">
@@ -94,7 +94,7 @@
   </h1>
   <div class="flex justify-center items-center py-2 space-x-5">
     {#each frontendAry as img}
-      <img src={img} class="w-11 h-11" />
+      <img src={img} class="w-9 h-9" />
     {/each}
   </div>
   <div class="text-center text-white font-sans border-b pb-1 text-lg">
@@ -103,7 +103,7 @@
   <h1 class="font-sans text-white text-5xl text-center mt-5 py-1">Tools</h1>
   <div class="flex justify-center items-center py-2 space-x-5">
     {#each toolsAry as img}
-      <img src={img} class="w-11 h-11" />
+      <img src={img} class="w-9 h-9" />
     {/each}
   </div>
   <div class="text-center text-white font-sans mb-1 text-lg">
