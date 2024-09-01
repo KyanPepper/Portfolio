@@ -2,6 +2,7 @@ import WSUImg from '$lib/imgs/WSU.png';
 import triangleImg from '$lib/imgs/triangle.png';
 import cougsInSpaceImg from '$lib/imgs/cougsinspace5.png';
 import intellitect5Img from '$lib/imgs/intellitect 5.png';
+import intellitect6Img from '$lib/imgs/intellitectnew.png';
 export const ExperienceData = [
   {
     Title: "Washington State University",
@@ -15,7 +16,7 @@ export const ExperienceData = [
     Title: "Intellitect",
     Role: "Software Engineering Intern",
     About: "In my Software Engineering Internship with Intellitect, I primarily focused on web and mobile development, working with technologies like MVC .NET, C#, TypeScript, Go Echo, and Flutter. I implemented unit and integration tests, optimized application performance using cloud services, and integrated microservices to deliver scalable solutions. My role also involved close collaboration with cross-functional teams to ensure seamless deployment and maintain high-quality standards.",
-    Img: intellitect5Img,
+    Img: intellitect6Img,
     Timeline: "2024 - Present",
   },
   {
