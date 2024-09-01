@@ -30,7 +30,10 @@ import coalesceImg from "$lib/imgs/coalesce.svg";
 import AzureImg from "$lib/imgs/azure.png";
 import oneonone1 from "$lib/ProjectScreenShots/1on1Piano1.png";
 import oneonone2 from "$lib/ProjectScreenShots/1on1Piano2.png";
-import oneononeLogo from "$lib/imgs/1on1Pianologo.png";
+import EchoImg from "$lib/imgs/echo.png";
+import GoImg from "$lib/imgs/go.png";
+import GcpImg from "$lib/imgs/gcp.png";
+import flutterImg from "$lib/imgs/Flutter_logo.svg.png";
 
 
 export const ProjectCards = [
@@ -84,7 +87,10 @@ export const ProjectCards = [
   },
   { //One on One Piano
     TechImgs: [
-      
+      GoImg,
+      EchoImg,
+      GcpImg,
+      flutterImg,
     ],
     Title: "1ON1 Piano",
     About:

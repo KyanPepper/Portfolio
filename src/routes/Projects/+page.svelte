@@ -69,14 +69,18 @@
           {/each}
         </div>
         <div class="flex justify-center mt-2 space-x-3">
+          {#if ProjectCards[currentIndex].GhUrl != ""}
           <a href={ProjectCards[currentIndex].GhUrl} class="flex items-center">
             <img src={githubLogo} class="w-8 h-8" />
             <span class="text-lg font-sans text-white">View on Github</span>
           </a>
+          {/if}
+          {#if ProjectCards[currentIndex].YtUrl != ""}
           <a href={ProjectCards[currentIndex].YtUrl} class="flex items-center">
             <img src={youtubeLogo} class="w-9 h-6" />
             <span class="text-lg font-sans text-white">View on Youtube</span>
           </a>
+          {/if}
           {#if ProjectCards[currentIndex].DeployedUrl != ""}
             <a
               href={ProjectCards[currentIndex].DeployedUrl}
