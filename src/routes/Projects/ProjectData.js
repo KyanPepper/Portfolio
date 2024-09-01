@@ -28,6 +28,10 @@ import CSharpimg from "$lib/imgs/Csharp.png";
 import MySQlImg from "$lib/imgs/mysql.svg";
 import coalesceImg from "$lib/imgs/coalesce.svg";
 import AzureImg from "$lib/imgs/azure.png";
+import oneonone1 from "$lib/ProjectScreenShots/1on1Piano1.png";
+import oneonone2 from "$lib/ProjectScreenShots/1on1Piano2.png";
+import oneononeLogo from "$lib/imgs/1on1Pianologo.png";
+
 
 export const ProjectCards = [
   {
@@ -77,6 +81,22 @@ export const ProjectCards = [
     GhUrl: "https://github.com/KyanPepper/Triangle.Test-Bank",
     YtUrl: "https://www.youtube.com/watch?v=wWC_pJnlTGE&ab_channel=KyanKotschevar-Smead",
     DeployedUrl: "",
+  },
+  { //One on One Piano
+    TechImgs: [
+      
+    ],
+    Title: "1ON1 Piano",
+    About:
+      "1ON1 Piano is the primary app I have worked on during my Software Engineering Internship at Intellitect. 1ON1 Piano is a multi-platform online piano lessons app designed to enhance remote teaching by enabling real-time, piano-to-piano connections across all brands of digital and hybrid pianos, including Yamaha, Steinway, and more. Unlike typical video call apps, it allows users to play and hear the other user’s piano directly, capturing all the nuances of in-person lessons.",
+    img1: oneonone1,
+    img2: oneonone2,
+    Frontend:
+      "",
+    Backend: "",
+    GhUrl: "",
+    YtUrl: "",
+    DeployedUrl: "https://1on1piano.com/beta-testing-program/",
   },
   
   {

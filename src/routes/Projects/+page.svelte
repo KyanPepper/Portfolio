@@ -68,7 +68,6 @@
             <img src={img} class="w-7 h-7" />
           {/each}
         </div>
-
         <div class="flex justify-center mt-2 space-x-3">
           <a href={ProjectCards[currentIndex].GhUrl} class="flex items-center">
             <img src={githubLogo} class="w-8 h-8" />

@@ -32,6 +32,6 @@ export const ExperienceData = [
       "In 2023, I did Embedded Systems work for Cougs in Space, where I wrote and maintained software for various aspects of satellite communication systems. I had engaged in embedded system projects using Arduino, with a focus on camera and temperature sensor applications.",
     Role: "Embedded Systems Engineer",
     Img: cougsInSpaceImg,
-    Timeline: "2023 - 2023",
+    Timeline: "2023 - 2024",
   },
 ];
